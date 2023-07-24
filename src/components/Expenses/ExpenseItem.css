@@ -26,13 +26,16 @@
 }
 
 .expense-item__price {
-  font-size: 1rem;
+  text-align: center;
+  font-size: 16px !important;
   font-weight: bold;
   color: white;
   background-color: #40005d;
   border: 1px solid white;
   padding: 0.5rem;
   border-radius: 12px;
+  min-width: 150px;
+  overflow-wrap: anywhere;
 }
 
 @media (min-width: 580px) {
@@ -54,14 +57,20 @@
 }
 
 .expense-delete-btn {
-  padding: 7px 15px;
+  padding: 7px 10px;
   border-radius: 5px;
-  background-color: #4b4b4b;
   font-size: 15px;
   font-weight: 600;
   cursor: pointer;
   border: none;
+  background-color: rgb(247, 247, 247);
+  margin: 10px;
 }
 .expense-delete-btn:hover {
-  background-color: rgb(224, 226, 228);
+  background-color: rgb(228, 228, 228);
+}
+
+.btn-container {
+  border-radius: 10px;
+  border: 1.3px solid grey;
 }

@@ -4,6 +4,7 @@ const PREDEFINED_APIS = {
   getAllExpenses: 'expenses.json',
   addExpense: 'expenses.json',
   deleteExpense: 'expenses.json',
+  editExpense: 'expenses.json',
 };
 
 const useHttp = () => {

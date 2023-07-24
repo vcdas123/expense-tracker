@@ -8,15 +8,8 @@ const ExpensesList = props => {
 
   return (
     <ul className="expenses-list">
-      {props.items.map(exp => (
-        <ExpenseItem
-          fetchExpenses={props.fetchExpenses}
-          key={exp.id}
-          title={exp.title}
-          amount={exp.amount}
-          date={exp.date}
-          id={exp.id}
-        />
+      {props.items.map((exp, i) => (
+        <ExpenseItem key={i} exp={exp} />
       ))}
     </ul>
   );
