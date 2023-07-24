@@ -7,6 +7,7 @@ const API_URL = 'https://moreoncustomhooks-default-rtdb.firebaseio.com/';
 const PREDEFINED_APIS = {
   getAllExpenses: 'expenses.json',
   addExpense: 'expenses.json',
+  deleteExpense: 'expenses',
 };
 
 // CUSTOM HTTP HOOK
