@@ -30,7 +30,7 @@ const ExpenseForm = ({ onCancel }) => {
   };
 
   return (
-    <form onSubmit={submitHandler}>
+    <form onSubmit={submitHandler} className="fade-in">
       <div className="new-expense__controls">
         <div className="new-expense__control">
           <label>Title</label>

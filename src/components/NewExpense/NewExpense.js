@@ -21,7 +21,9 @@ const NewExpense = () => {
   return (
     <div className="new-expense">
       {!formStatus ? (
-        <button onClick={() => handler(true)}>Add New Expense</button>
+        <button onClick={() => handler(true)} className="fade-in">
+          Add New Expense
+        </button>
       ) : (
         <ExpenseForm onCancel={() => handler(false)} />
       )}

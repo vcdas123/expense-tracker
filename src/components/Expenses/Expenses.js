@@ -20,7 +20,7 @@ const Expenses = props => {
   });
 
   return (
-    <li>
+    <li className="fade-in">
       <Card className="expenses">
         <ExpensesFilter
           selected={filteredYear}

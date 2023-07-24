@@ -11,7 +11,7 @@ const App = () => {
     <>
       <MainLoader isLoading={isLoading} />
       {!isLoading && (
-        <div>
+        <div className="fade-in">
           <NewExpense onAddExpense={addExpenseHandler} />
           <Expenses items={expenses} />
         </div>

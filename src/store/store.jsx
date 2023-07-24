@@ -89,6 +89,7 @@ export const ExpenseContextProvider = ({ children }) => {
 
   const deleteHandler = async id => {
     if (isLoading) return;
+    if (!window.confirm('Are you sure ?')) return;
     const update = expenses?.filter(item => item?.id !== id);
     console.log(update, 'sfsdfsdf');
     setIsLoading(true);
