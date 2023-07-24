@@ -16,7 +16,6 @@ const ExpensesList = props => {
           amount={exp.amount}
           date={exp.date}
           id={exp.id}
-          untouchedExpenses={props?.untouchedExpenses}
         />
       ))}
     </ul>
