@@ -1,5 +1,5 @@
 import { useCallback } from 'react';
-const API_URL = 'https://moreoncustomhooks-default-rtdb.firebaseio.com/';
+const API_URL = 'https://expense-tracker-67b69-default-rtdb.firebaseio.com/';
 const PREDEFINED_APIS = {
   getAllExpenses: 'expenses.json',
   addExpense: 'expenses.json',
